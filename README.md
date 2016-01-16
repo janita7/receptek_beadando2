@@ -81,18 +81,20 @@
       - Fejlesztői környezet gyanánt a Cloud9 webes IDE-t használjuk. Ez a c9.io weboldalról érhető el, rendelkeznünk kell           hozzá egy github felhasználói fiókkal. Belépés után egy demo projekt rendelkezésünkre is áll, amin keresztül                 megismerkedhetünk a felülettel.
         
   - Könyvtárstruktúrában lévő mappák funkiójának bemutatása:
-      - config: waterline tároló-és keresőmotor konfigurációja.
-      - controllers: főoldalon, bejelentkező oldalon és a receptlista oldalon történő navigációk; interakciók definiálása.
-      - models: felhasználó és recept modellek definiálása.
+      - app/pods/application: a host definiálása
+      - app/pods/components: új recept kinézete és validálása, recept lista oldal kinézete
+      - app/pods/index: a főoldal kinézete
+      - app/pods/recipe: a receptek modellje
+      - app/pods/recipes: szerkesztési oldal, új recept oldal, recept lista oldal kontrollerei, és kinézetük
+      - app/templates: a főoldal sablonja
+      - config: környezeti beállítások
       - node_modules: telepített modulok helye
-      - public: stíluskönyvtárak helye
-      - test: unit és funkcionális tesztek definiálása. Teszteljük, hogy lehet-e létrehozni, keresni, módosítani egy adott         felhasználót, és hibát dob-e, ha rossz attribútumokat adunk meg, és igazzal vagy hamissal tér-e vissza a jó/rossz            jelszó megadása esetén. A zombi tesztnél egy felhasználói folyamaton megyünk végig: rálépünk a főoldalra,                    bejelentkezünk, rálépünk az 'új recept felvitelé'-re, ellenőrizzük, hogy jók-e a megadott űrlap adatok, és hogy              látjuk-e a receptlista oldalon az új receptünket.
-      - views: a főoldal kinézetét és elrendezését állítjuk be.
-          - login: bejelentkezési és regisztrációs felület kinézete és elrendezése.
-          - recipes: receptlista és új recept felviteléhez szükséges űrlap oldal kinézete és elrendezése.
+      - tests/unit/pods/application: létezést vizsgáló teszt az appra
+      - tests/unit/pods/recipe: modell unit teszt
+      - tests/unit/pods/recipes: szerkesztés, listázás, új recept felvitelének tesztelése
   
 ## IV. Tesztelés
-  - Tesztesetek felsorolása: egységteszt a felhasználók adatmodellre, funkcionális teszt egy felhasználói folyamatra.
+  - Tesztesetek felsorolása: unit teszt a recept adatmodellre
   
 ## V. Felhasználói dokumentáció
   - A program használata:
