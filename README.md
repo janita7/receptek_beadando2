@@ -64,9 +64,7 @@
   4. Dinamikus működés:
     * Szekvencia diagram:
       
-    ![nomnoml](https://cloud.githubusercontent.com/assets/14230720/11134219/6514ebc0-899b-11e5-84f8-3d9dd77da568.png)
-    ![nomnoml 1](https://cloud.githubusercontent.com/assets/14230720/11134221/690adc6c-899b-11e5-8a4a-e874d9619642.png)
-    ![nomnoml 2](https://cloud.githubusercontent.com/assets/14230720/11134224/6d7649c6-899b-11e5-91d6-f90f3195e3e1.png)
+    ![szekvencia](https://cloud.githubusercontent.com/assets/14230720/12414823/4856682e-be98-11e5-8554-da94d5117a39.png)
 
 ## III. Implementáció
   - Fejlesztői környezet bemutatása:
