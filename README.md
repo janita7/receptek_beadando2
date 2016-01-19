@@ -14,7 +14,7 @@
 
   - Receptfelvételi folyamat pontos menete:
       
-      ![act_diagram](https://cloud.githubusercontent.com/assets/14230720/11021339/b27b0eb8-863e-11e5-95ff-02f2550565f1.png)
+     
 
 
 ## II. Tervezés
