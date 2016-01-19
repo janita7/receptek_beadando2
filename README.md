@@ -2,15 +2,13 @@
 
 ## I. Követelményanalízis
   - Funkcionális elvárások:
-      Felhasználóként szeretném elmenteni a receptjeimet, és később visszanézni őket. (Receptek felvitele és listázása)
+      Vendégként szeretnék recepteket feltölteni, amiket később visszanézhetek. (Receptek felvitele, listázása, szerkesztése)
   - Nem funkcionális követelmények:
       Felhasználóbarát kinézet, egyszerű és egyértelmű navigáció.
-      Biztonságos működés - jelszóval védett tartalom.
   - Szerepkörök:
       
-      Vendég: Csak a főoldal érhető el számára, lehetősége van regisztrálni.
+      Vendég:A végpontok segítségével navigálhat a főoldal, receptlista, szerkesztés, és új recept oldalak között.
 
-      Felhasználó: Bejelentkezhet a felhasználónevével és jelszavával, ezután láthatóvá válnak a feltöltött receptjei.
   - Használati eset diagram:
       ![haszn_eset](https://cloud.githubusercontent.com/assets/14230720/11021275/576fcb1e-863c-11e5-9733-21bfd4ca0aa6.png)
 
@@ -27,23 +25,17 @@
 
 
     * Oldaltérkép:
-        - Publikus: Bejelentkezés, Regisztráció
-        - Felhasználói: Kilépés, Receptlista, Új receptek felvitele
+        - Publikus: Receptlista, Új receptek felvitele, Meglévő szerkesztése és törlése
 
     * Végpontok:
         - GET /: főoldal
-        - GET /login: bejelentkezés
-        - GET /login/signup: regisztráció
         - GET /recipes/list: receptlista
         - GET /recipes/new: új recept felvitele
-        - GET /logout: kilépés
-        - GET /recipes/edit/:id : {id} azonosítójú recept szerkesztése
-        
-        - POST /login: bejelentkezési adatok elküldése
-        - POST /login/signup: regisztrációs adatok elküldése
+        - GET /recipes/:recipe_id : {recipe_id} azonosítójú recept megtekintése
+        - GET /recipes/edit/:recipe_id : {recipe_id} azonosítójú recept szerkesztése
         
         - POST /recipes/new: új recept felvitele, adatok elküldése
-        - POST /recipes/edit/:id : {id} azonosítójú recept szerkesztésének elmentése
+        - POST /recipes/edit/:recipe_id : {recipe_id} azonosítójú recept szerkesztésének elmentése
         
   2. Felhasználóifelület-modell:
     * Oldalvázlatok:
@@ -100,11 +92,6 @@
   - A program használata:
   
       Cloud9 keretrendszeren belül: Indítsuk el a 'Run' gombbal az applikációnkat, ekkor a konzol felületen megjelennek az         információk, többek között az, hogy milyen címen érhetjük el. Arra kattintva nyithatjuk meg az app főoldalát.
-
-      A jobb felső sarokban a Bejelentkezés gombra kattintva adhatjuk meg a felhasználói nevünket és jelszavunkat a                belépéshez, vagy ha még nincs fiókunk, akkor a bejelentkezési oldal alján található Regisztráció gombra kattintva            tehetjük ezt meg.
       
-      Ha beléptünk, rögtön a receptlista oldalra érkezünk, ahol áttekinthetjük eddigi feltöltéseinket. Az Új recept felvitele       gombra való kattintással egy űrlapon keresztül adhatjuk meg legújabb receptünk címét és leírását. Ha kitöltöttük a           kötelező mezőket, a mentés vagy mégse gombbal elmenthetjük vagy elvethetjük azt, amit eddig beírtunk.
-      
-      Ha befejeztük a teendőket, akkor a jobb felső sarokban lévő Kilépés gombbal újra a főoldalra navigálhatunk.
-  
+      A receptlista oldalon áttekinthetjük eddigi feltöltéseinket. Az Új recept felvitele gombra való kattintással egy űrlapon keresztül adhatjuk meg legújabb receptünk címét és leírását. Ha kitöltöttük a kötelező mezőket, a mentés vagy mégse gombbal elmenthetjük vagy elvethetjük azt, amit eddig beírtunk. Lehetőségünk van a meglévő receptek egyenkénti megtekintésére, vagy szerkesztésére, illetve törlésére.
 
