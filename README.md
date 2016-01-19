@@ -25,7 +25,7 @@
 
 
     * Oldaltérkép:
-        - Publikus: Receptlista, Új receptek felvitele, Meglévő szerkesztése és törlése
+        - Publikus: Receptlista, Recept megtekintése, Új receptek felvitele, Meglévő szerkesztése és törlése
 
     * Végpontok:
         - GET /: főoldal
