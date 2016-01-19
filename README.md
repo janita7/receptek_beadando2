@@ -10,7 +10,7 @@
       Vendég:A végpontok segítségével navigálhat a főoldal, receptlista, szerkesztés, és új recept oldalak között.
 
   - Használati eset diagram:
-      ![haszn_eset](https://cloud.githubusercontent.com/assets/14230720/11021275/576fcb1e-863c-11e5-9733-21bfd4ca0aa6.png)
+      
 
   - Receptfelvételi folyamat pontos menete:
       
