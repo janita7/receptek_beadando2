@@ -71,7 +71,7 @@
       - app/pods/application: a host definiálása
       - app/pods/components: új recept kinézete és validálása, recept lista oldal kinézete
       - app/pods/index: a főoldal kinézete
-      - app/pods/recipe: a receptek modellje
+      - app/pods/recipe: a receptek és a user modellje
       - app/pods/recipes: szerkesztési oldal, új recept oldal, recept lista oldal kontrollerei, és kinézetük
       - app/templates: a főoldal sablonja
       - config: környezeti beállítások
