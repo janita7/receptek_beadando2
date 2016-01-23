@@ -52,15 +52,10 @@
   3. Osztálymodell:
     * Adatmodell:
   
-      ![adatmodell](https://cloud.githubusercontent.com/assets/14230720/11125257/3d39dfca-8969-11e5-8a5f-49c42f442915.png)
 
     * Adatbázisterv:
     
-      ![adatbterv](https://cloud.githubusercontent.com/assets/14230720/11125318/96f60f0c-8969-11e5-9c28-edd280099359.png)
       
-    * Recept állapotdiagramja:
-    
-      ![alldiag](https://cloud.githubusercontent.com/assets/14230720/11133015/97e5f808-8993-11e5-8fed-3eb3167d4113.png)
       
   4. Dinamikus működés:
     * Szekvencia diagram:
