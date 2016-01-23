@@ -29,6 +29,7 @@
 
     * Végpontok:
         - GET /: főoldal
+        - GET /login: bejelentkezési oldal
         - GET /recipes/list: receptlista
         - GET /recipes/new: új recept felvitele
         - GET /recipes/:recipe_id : {recipe_id} azonosítójú recept megtekintése
