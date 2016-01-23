@@ -52,6 +52,7 @@
   3. Osztálymodell:
     * Adatmodell:
   
+    ![nomnoml 3](https://cloud.githubusercontent.com/assets/14230720/12530829/88aa2ca2-c1eb-11e5-94e2-0732477b2759.png)
 
     * Adatbázisterv:
     
