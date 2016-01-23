@@ -56,7 +56,7 @@
 
     * Adatbázisterv:
     
-      
+    ![nomnoml 4](https://cloud.githubusercontent.com/assets/14230720/12530833/a1b61ef4-c1eb-11e5-9528-58ca065e0177.png)
       
   4. Dinamikus működés:
     * Szekvencia diagram:
